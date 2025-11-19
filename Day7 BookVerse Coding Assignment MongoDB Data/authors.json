@@ -1,0 +1,5 @@
+[
+  { "_id": 1, "name": "Isaac Asimov", "nationality": "American", "birthYear": 1920 },
+  { "_id": 2, "name": "J.K. Rowling", "nationality": "British", "birthYear": 1965 },
+  { "_id": 3, "name": "George R.R. Martin", "nationality": "American", "birthYear": 1948 }
+]

@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Product Portal</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white py-3">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <h1 class="h3 mb-0">ShopEase</h1>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <span>Welcome to our online store!</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">Products</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#newsletter">Newsletter</a></li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="search" placeholder="Search products">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Section -->
+    <main class="container my-5">
+        <!-- Home Section -->
+        <section id="home">
+            <!-- Hero Section -->
+            <div class="hero-section bg-primary text-white p-5 rounded mb-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h2 class="display-4 fw-bold">Summer Sale!</h2>
+                        <p class="lead">Up to 50% off on selected items. Limited time offer.</p>
+                        <button class="btn btn-light btn-lg">Shop Now</button>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <div class="hero-image-placeholder bg-white text-dark p-4 rounded">
+                            <h3>Featured Products</h3>
+                            <p>Check out our best sellers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Featured Products Section -->
+            <div class="featured-products mb-5">
+                <h2 class="text-center mb-4">Featured Products</h2>
+                <div class="row g-4">
+                    <!-- Product Card 1 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card product-card h-100">
+                            <img src="https://placehold.co/300x200/007bff/ffffff?text=Smartphone" class="card-img-top" alt="Smartphone">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Smartphone X1</h5>
+                                <p class="card-text">Latest model with advanced features and high-resolution camera.</p>
+                                <div class="mt-auto">
+                                    <p class="card-price h5 text-primary">$599.99</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Card 2 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card product-card h-100">
+                            <img src="https://placehold.co/300x200/28a745/ffffff?text=Laptop" class="card-img-top" alt="Laptop">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">UltraBook Pro</h5>
+                                <p class="card-text">Powerful laptop for work and entertainment with long battery life.</p>
+                                <div class="mt-auto">
+                                    <p class="card-price h5 text-primary">$899.99</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Card 3 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card product-card h-100">
+                            <img src="https://placehold.co/300x200/dc3545/ffffff?text=Headphones" class="card-img-top" alt="Headphones">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Wireless Headphones</h5>
+                                <p class="card-text">Noise-cancelling headphones with premium sound quality.</p>
+                                <div class="mt-auto">
+                                    <p class="card-price h5 text-primary">$199.99</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Product Card 4 -->
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card product-card h-100">
+                            <img src="https://placehold.co/300x200/ffc107/000000?text=Smartwatch" class="card-img-top" alt="Smartwatch">
+                            <div class="card-body d-flex flex-column">
+                                <h5 class="card-title">Smart Watch Series 5</h5>
+                                <p class="card-text">Track your fitness and stay connected with this advanced smartwatch.</p>
+                                <div class="mt-auto">
+                                    <p class="card-price h5 text-primary">$249.99</p>
+                                    <button class="btn btn-primary w-100">Add to Cart</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Product Listing Section (User Story 2) -->
+        <section id="products" class="mb-5">
+            <h2 class="text-center mb-4">All Products</h2>
+            
+            <!-- Filter Section -->
+            <div class="filter-section bg-light p-4 rounded mb-4">
+                <div class="row g-3">
+                    <div class="col-md-4">
+                        <label for="categoryFilter" class="form-label">Filter by Category</label>
+                        <select class="form-select" id="categoryFilter">
+                            <option value="all">All Categories</option>
+                            <option value="electronics">Electronics</option>
+                            <option value="clothing">Clothing</option>
+                            <option value="home">Home & Kitchen</option>
+                            <option value="books">Books</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label for="sortBy" class="form-label">Sort By</label>
+                        <select class="form-select" id="sortBy">
+                            <option value="default">Default</option>
+                            <option value="price-low">Price: Low to High</option>
+                            <option value="price-high">Price: High to Low</option>
+                            <option value="name">Name: A to Z</option>
+                        </select>
+                    </div>
+                    <div class="col-md-4">
+                        <label class="form-label">Price Range</label>
+                        <div class="price-range">
+                            <input type="range" class="form-range" id="priceRange" min="0" max="1000" step="10" value="1000">
+                            <span id="priceRangeValue">$1000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading Spinner -->
+            <div id="loadingSpinner" class="loading-spinner text-center my-5">
+                <div class="spinner-border text-primary" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+                <p class="mt-2">Loading products...</p>
+            </div>
+
+            <!-- Error Message -->
+            <div id="errorMessage" class="alert alert-danger d-none" role="alert">
+                Failed to load products. Please try again later.
+            </div>
+
+            <!-- Products Container -->
+            <div id="productsContainer" class="row g-4">
+                <!-- Products will be dynamically inserted here -->
+            </div>
+
+            <!-- No Products Message -->
+            <div id="noProductsMessage" class="text-center my-5 d-none">
+                <h3>No products found</h3>
+                <p>Try adjusting your filters to see more products.</p>
+            </div>
+        </section>
+
+        <!-- Newsletter Section -->
+        <section id="newsletter" class="newsletter-section bg-light p-5 rounded">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2>Subscribe to Our Newsletter</h2>
+                    <p class="mb-4">Get the latest updates on new products and upcoming sales</p>
+                    <form id="newsletterForm" class="row g-3 justify-content-center">
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+                            <div class="invalid-feedback">Please provide your name.</div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+                            <div class="invalid-feedback">Please provide a valid email.</div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" id="agreeTerms" required>
+                                <label class="form-check-label" for="agreeTerms">
+                                    I agree to receive marketing emails
+                                </label>
+                                <div class="invalid-feedback">You must agree before submitting.</div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary btn-lg">Subscribe Now</button>
+                        </div>
+                    </form>
+                    <div id="formSuccess" class="alert alert-success mt-3 d-none" role="alert">
+                        Thank you for subscribing to our newsletter!
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>ShopEase</h5>
+                    <p>Your one-stop destination for all your shopping needs.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#home" class="text-white">Home</a></li>
+                        <li><a href="#products" class="text-white">Products</a></li>
+                        <li><a href="#newsletter" class="text-white">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Us</h5>
+                    <address>
+                        <p>123 Commerce Street<br>Business City, BC 12345<br>Email: info@shopease.com</p>
+                    </address>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="text-center">
+                <p>&copy; 2023 ShopEase. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../userstory2/script.js"></script>
+    <script>
+        // Form validation
+        document.getElementById('newsletterForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            event.stopPropagation();
+            
+            const form = event.target;
+            
+            if (form.checkValidity()) {
+                // Form is valid, show success message
+                document.getElementById('formSuccess').classList.remove('d-none');
+                form.reset();
+                form.classList.remove('was-validated');
+            } else {
+                // Form is invalid, show validation errors
+                form.classList.add('was-validated');
+            }
+        });
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

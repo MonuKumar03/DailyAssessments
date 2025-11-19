@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Apple iPhone 15",
+    "category": "Smartphones",
+    "price": 999,
+    "stock": 150,
+    "attributes": {
+      "color": "Black",
+      "storage": "128GB",
+      "brand": "Apple"
+    }
+  },
+  {
+    "name": "Samsung QLED TV",
+    "category": "Televisions",
+    "price": 1200,
+    "stock": 50,
+    "attributes": {
+      "size": "55 inch",
+      "resolution": "4K",
+      "brand": "Samsung"
+    }
+  },
+  {
+    "name": "Nike Running Shoes",
+    "category": "Footwear",
+    "price": 120,
+    "stock": 200,
+    "attributes": {
+      "size": 10,
+      "color": "Red",
+      "brand": "Nike"
+    }
+  }
+]

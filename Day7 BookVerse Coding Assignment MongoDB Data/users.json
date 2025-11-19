@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "name": "Alice Johnson",
+        "email": "alice@example.com",
+        "joinDate": {
+            "$date": "2025-02-15T00:00:00Z"
+        }
+    },
+    {
+        "_id": 2,
+        "name": "Bob Smith",
+        "email": "bob@example.com",
+        "joinDate": {
+            "$date": "2025-07-01T00:00:00Z"
+        }
+    },
+    {
+        "_id": 3,
+        "name": "Carol White",
+        "email": "carol@example.com",
+        "joinDate": {
+            "$date": "2024-12-10T00:00:00Z"
+        }
+    }
+]

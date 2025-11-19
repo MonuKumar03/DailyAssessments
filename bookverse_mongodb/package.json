@@ -1,0 +1,24 @@
+{
+  "name": "bookverse-mongodb",
+  "version": "1.0.0",
+  "description": "MongoDB practice assignment for BookVerse",
+  "main": "index.js",
+  "scripts": {
+    "setup": "node scripts/setupDatabase.js",
+    "crud": "node scripts/crudOperations.js",
+    "query": "node scripts/queryOperations.js",
+    "bonus": "node scripts/bonusChallenge.js",
+    "start": "npm run setup && npm run crud && npm run query && npm run bonus"
+  },
+  "dependencies": {
+    "mongoose": "^7.8.7"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "nosql",
+    "crud"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

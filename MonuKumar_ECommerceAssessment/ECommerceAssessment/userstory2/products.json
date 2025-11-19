@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "name": "Smartphone X1",
+        "category": "electronics",
+        "price": 599.99,
+        "description": "Latest model with advanced features and high-resolution camera.",
+        "image": "https://placehold.co/300x200/007bff/ffffff?text=Smartphone",
+        "stock": 15
+    },
+    {
+        "id": 2,
+        "name": "UltraBook Pro",
+        "category": "electronics",
+        "price": 899.99,
+        "description": "Powerful laptop for work and entertainment with long battery life.",
+        "image": "https://placehold.co/300x200/28a745/ffffff?text=Laptop",
+        "stock": 8
+    },
+    {
+        "id": 3,
+        "name": "Wireless Headphones",
+        "category": "electronics",
+        "price": 199.99,
+        "description": "Noise-cancelling headphones with premium sound quality.",
+        "image": "https://placehold.co/300x200/dc3545/ffffff?text=Headphones",
+        "stock": 22
+    },
+    {
+        "id": 4,
+        "name": "Smart Watch Series 5",
+        "category": "electronics",
+        "price": 249.99,
+        "description": "Track your fitness and stay connected with this advanced smartwatch.",
+        "image": "https://placehold.co/300x200/ffc107/000000?text=Smartwatch",
+        "stock": 0
+    },
+    {
+        "id": 5,
+        "name": "Cotton T-Shirt",
+        "category": "clothing",
+        "price": 19.99,
+        "description": "Comfortable cotton t-shirt available in multiple colors.",
+        "image": "https://placehold.co/300x200/6f42c1/ffffff?text=T-Shirt",
+        "stock": 45
+    },
+    {
+        "id": 6,
+        "name": "Denim Jeans",
+        "category": "clothing",
+        "price": 49.99,
+        "description": "Classic denim jeans with a modern fit.",
+        "image": "https://placehold.co/300x200/20c997/ffffff?text=Jeans",
+        "stock": 30
+    },
+    {
+        "id": 7,
+        "name": "Coffee Maker",
+        "category": "home",
+        "price": 79.99,
+        "description": "Programmable coffee maker with thermal carafe.",
+        "image": "https://placehold.co/300x200/fd7e14/ffffff?text=Coffee+Maker",
+        "stock": 12
+    },
+    {
+        "id": 8,
+        "name": "Blender",
+        "category": "home",
+        "price": 39.99,
+        "description": "High-speed blender for smoothies and food preparation.",
+        "image": "https://placehold.co/300x200/e83e8c/ffffff?text=Blender",
+        "stock": 18
+    },
+    {
+        "id": 9,
+        "name": "JavaScript Guide",
+        "category": "books",
+        "price": 29.99,
+        "description": "Comprehensive guide to modern JavaScript programming.",
+        "image": "https://placehold.co/300x200/6c757d/ffffff?text=JS+Book",
+        "stock": 25
+    },
+    {
+        "id": 10,
+        "name": "TypeScript Essentials",
+        "category": "books",
+        "price": 34.99,
+        "description": "Learn TypeScript from basics to advanced concepts.",
+        "image": "https://placehold.co/300x200/0dcaf0/000000?text=TS+Book",
+        "stock": 10
+    },
+    {
+        "id": 11,
+        "name": "Tablet Device",
+        "category": "electronics",
+        "price": 349.99,
+        "description": "Versatile tablet for work and entertainment.",
+        "image": "https://placehold.co/300x200/198754/ffffff?text=Tablet",
+        "stock": 7
+    },
+    {
+        "id": 12,
+        "name": "Running Shoes",
+        "category": "clothing",
+        "price": 89.99,
+        "description": "Comfortable running shoes with advanced cushioning.",
+        "image": "https://placehold.co/300x200/6610f2/ffffff?text=Shoes",
+        "stock": 20
+    }
+]

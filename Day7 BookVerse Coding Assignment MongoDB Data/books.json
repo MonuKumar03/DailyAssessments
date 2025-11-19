@@ -1,0 +1,65 @@
+[
+    {
+        "_id": 1,
+        "title": "Foundation",
+        "genre": "Science Fiction",
+        "publicationYear": 1951,
+        "authorId": 1,
+        "ratings": [
+            {
+                "user": "Alice Johnson",
+                "score": 5,
+                "comment": "Brilliant classic!"
+            },
+            {
+                "user": "Bob Smith",
+                "score": 4,
+                "comment": "Great read"
+            }
+        ]
+    },
+    {
+        "_id": 2,
+        "title": "Harry Potter and the Sorcerer’s Stone",
+        "genre": "Fantasy",
+        "publicationYear": 1997,
+        "authorId": 2,
+        "ratings": [
+            {
+                "user": "Carol White",
+                "score": 5,
+                "comment": "Magical story!"
+            }
+        ]
+    },
+    {
+        "_id": 3,
+        "title": "A Game of Thrones",
+        "genre": "Fantasy",
+        "publicationYear": 1996,
+        "authorId": 3,
+        "ratings": [
+            {
+                "user": "Bob Smith",
+                "score": 5,
+                "comment": "Epic world-building!"
+            }
+        ]
+    },
+    {
+        "_id": 4,
+        "title": "The Caves of Steel",
+        "genre": "Science Fiction",
+        "publicationYear": 1953,
+        "authorId": 1,
+        "ratings": []
+    },
+    {
+        "_id": 5,
+        "title": "Fantastic Beasts",
+        "genre": "Fantasy",
+        "publicationYear": 2016,
+        "authorId": 2,
+        "ratings": []
+    }
+]
